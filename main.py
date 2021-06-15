@@ -19,11 +19,6 @@ def get_word_length(word):
             if(areDistinct(word,i,j)):
                 res = max(res, j-i+1)
     print(res)
-
-
-
-
-
 if __name__ == '_main_':
     s = input('Enter word: ')
     get_word_length(s)
