@@ -1,3 +1,4 @@
+# Task 2
 def areDistinct(strr, i, j):
     visited = [0] * (26)
 
